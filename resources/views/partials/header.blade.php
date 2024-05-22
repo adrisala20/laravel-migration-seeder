@@ -1,4 +1,4 @@
-<header class="bg-white">
+<header>
     <div  class="container">
         <div id="logo" class="text-center">
             <img src="{{ Vite::asset('resources/img/logo.png') }}" alt="Logo">
@@ -10,12 +10,6 @@
                         <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active' : '' }}"
                             href="{{route('home')}}">
                             Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Route::currentRouteName() == 'about' ? 'active' : '' }}"
-                            href="{{route('about')}}">
-                            About
                         </a>
                     </li>
                 </ul>

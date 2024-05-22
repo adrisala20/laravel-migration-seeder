@@ -9,6 +9,16 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $text-color;
+body{
+    background-color: black;
+    color: $color-white
+}
+header{
+    height: 150px;
+}
+main{
+    height: calc(100vh - 300px);
+}
+footer{
+    height: 150px;
 }
