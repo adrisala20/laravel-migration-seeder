@@ -10,15 +10,29 @@ $fa-font-path: "../webfonts" !default;
 @import '~bootstrap/scss/bootstrap';
 
 body{
-    background-color: black;
+    background-color: rgb(230, 18, 18);
     color: $color-white
 }
 header{
-    height: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    img{
+        height: 100px;
+    }
+    ul{
+        font-weight: bolder;
+        font-size: larger;
+        margin-top: 20px;
+    }
 }
 main{
     height: calc(100vh - 300px);
 }
 footer{
-    height: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [TrainController::class, 'home'])->name('home');
+Route::get('/', [TrainController::class, 'index'])->name('home');
 
