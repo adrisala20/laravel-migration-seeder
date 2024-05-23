@@ -21,7 +21,7 @@
                 <th scope="col">in orario</th>
                 <th scope="col">cancellato</th>
                 <th scope="col">tipo di treno</th>
-                <th scope="col">disponinbilità posti</th>
+                <th scope="col">disponibilità posti</th>
 
                 </tr>
             </thead>

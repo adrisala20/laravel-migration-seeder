@@ -29,6 +29,9 @@ header{
 }
 main{
     height: calc(100vh - 300px);
+    table{
+        text-transform: capitalize;
+    }
 }
 footer{
     height: 100px;
